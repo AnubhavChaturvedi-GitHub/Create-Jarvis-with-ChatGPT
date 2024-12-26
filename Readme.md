@@ -20,7 +20,9 @@ Ensure the script demonstrates fast and efficient real-time speech recognition b
 # Second Prompt 2 ( TTS )
 
 ---
+
 Create an optimized and advanced Python code for text-to-speech using the pyttsx3 library. The code should be fast and efficient. Use the subprocess module to automate the installation of required dependencies with pip. Implement a function named speak that accepts text and converts it to speech. Within the function, vary the pitch of the speech randomly. Additionally, allow the user to set the voice property by using the voice ID
+
 ---
 
 # Prompt 3 to open websites
