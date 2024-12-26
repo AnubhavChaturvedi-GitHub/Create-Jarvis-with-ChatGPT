@@ -22,3 +22,9 @@ Ensure the script demonstrates fast and efficient real-time speech recognition b
 ```
 Create an optimized and advanced Python code for text-to-speech using the pyttsx3 library. The code should be fast and efficient. Use the subprocess module to automate the installation of required dependencies with pip. Implement a function named speak that accepts text and converts it to speech. Within the function, vary the pitch of the speech randomly. Additionally, allow the user to set the voice property by using the voice ID
 ```
+
+# Prompt 3 to open websites
+
+```
+Python code to automate the process of searching for a term on Google, extracting multiple websites from the search results, and opening them in a browser. The script should also automate the installation of the necessary libraries using subprocess for pip to ensure a faster execution of the process. The code should be advanced, efficient, and capable of handling dependencies smoothly.
+```
