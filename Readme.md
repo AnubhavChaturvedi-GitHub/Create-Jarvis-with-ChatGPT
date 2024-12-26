@@ -1,4 +1,4 @@
-# First Prompt 1 
+# First Prompt 1 ( STT )
 
 ```
 Write a Python script that recognizes speech using the `speech_recognition` module while automating the installation of required packages via the `subprocess` module. Ensure the script uses advanced configurations of `sr.Recognizer` for optimal performance. Implement and configure the following parameters to achieve the fastest and most accurate results:
@@ -17,7 +17,7 @@ Ensure the script demonstrates fast and efficient real-time speech recognition b
 
 ```
 
-# Second Prompt 2
+# Second Prompt 2 ( TTS )
 
 ```
 Create an optimized and advanced Python code for text-to-speech using the pyttsx3 library. The code should be fast and efficient. Use the subprocess module to automate the installation of required dependencies with pip. Implement a function named speak that accepts text and converts it to speech. Within the function, vary the pitch of the speech randomly. Additionally, allow the user to set the voice property by using the voice ID
