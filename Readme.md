@@ -28,39 +28,24 @@ Create an optimized and advanced Python code for text-to-speech using the pyttsx
 # Prompt 3 to open websites
 
 ---
+Create a Python script that automates the process of searching Google for a list of terms and opening the top results in a web browser. The script should include the following steps:
 
-**Python Script to Automate Google Search, Extract Websites, and Open in Browser**
+Library Installation:
 
-The task is to create a Python script that performs the following actions:
+Check if the required library googlesearch-python is installed. If not, automatically install it using pip.
+Google Search Functionality:
 
-1. **Accepts Input for Search Terms:** The script should take a list of search terms as input (e.g., "youtube", "instagram", "facebook", "telegram", "whatsapp").
+Define a function to perform a Google search for each search term and return the top results.
+Allow the number of search results to be configurable (default: 5).
+Opening URLs:
 
-2. **Automates Google Search:** For each of the input search terms, the script should automatically search for them on Google and extract relevant website URLs from the search results.
+For each search term, open the top URLs in the web browser.
+The script should open the URLs one by one.
+Main Automation:
 
-3. **Extracts Multiple URLs:** The script should efficiently extract a list of URLs from the Google search results. The number of results should be customizable, based on the user's needs.
+The script should take a list of search terms, search Google for each, display the found URLs, and open the results in a web browser.
+Example Usage:
 
-4. **Opens URLs in Browser:** The extracted URLs should be automatically opened in a web browser.
-
-5. **Handles Dependencies Smoothly:** The script should ensure all necessary libraries are installed by automating the installation process using `subprocess` for `pip`. This ensures that the required packages are installed without manual intervention, leading to faster execution.
-
-6. **Optimization and Efficiency:** The script should be efficient, able to handle multiple search terms, extract URLs, and open them in the browser in a smooth and fast manner.
-
-### Requirements:
-- The script should handle the installation of libraries like `requests`, `BeautifulSoup4`, and `webbrowser` (or other dependencies if needed) in an efficient manner.
-- Make sure the code runs on various environments by ensuring smooth installation and compatibility with the latest versions of the libraries.
-
-### Libraries to Use:
-- `requests` for making HTTP requests.
-- `BeautifulSoup` from `bs4` for parsing the HTML and extracting URLs from the Google search results.
-- `webbrowser` for opening the extracted URLs.
-- `subprocess` to automate the installation of dependencies via `pip`.
-
-**Expected Functionality:**
-1. Accept input terms.
-2. Perform a Google search for each term.
-3. Extract and store multiple URLs.
-4. Open each URL in the default web browser.
-5. Automatically install necessary libraries if not present.
-
+Provide an example usage with a list of search terms (e.g., ‘youtube’, ‘instagram’, ‘facebook’, etc.).
 ---
 
